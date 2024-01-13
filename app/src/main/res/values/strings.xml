@@ -2,4 +2,28 @@
     <string name="app_name">updated</string>
     <string name="edittext_hint"><font style="" size="16">Provide URL, link, etc..</font></string>
     <string name="otp">OTP</string>
+    <string name="tagline">Your Customized Visual Qr in a Click</string>
+    <string name="title_contact">Contact Details :</string>
+    <string name="title_brand">QR\nBAZAR</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="plans">Explore Plans</string>
+    <string name="url">www.kfc.com</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="otp_generated">OTP Generated!</string>
+    <string name="otp_verification">OTP Verification :</string>
+    <string name="skip_reg">Skip Registration</string>
+    <string name="feat_1">QR with watermark</string>
+    <string name="feat_2">Back-linking with our domain</string>
+    <string name="feat_3">High Quality QR</string>
+    <string name="feat_4">Full Resolution</string>
+    <string name="feat_1_basic">QR with no watermark</string>
+
+    <string name="feat_2_basic">Avoid Back-linking with our domain</string>
+    <string name="plan_title">Free</string>
+    <string name="plan_title_basic">Basic</string>
+    <string name="plan_price_basic">₹499/Month</string>
+    <string name="plan_title_corps">Corporates</string>
+    <string name="plan_price_corps">₹999/Month</string>
 </resources>

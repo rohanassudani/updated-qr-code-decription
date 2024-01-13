@@ -22,51 +22,54 @@
     <Button
         android:id="@+id/insert"
         android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_height="46dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="48dp"
         android:layout_marginTop="80dp"
         android:background="@drawable/roundedbuttoncor"
-        android:clickable="true"
-        android:elevation="30dp"
-        android:focusable="true"
-        android:padding="12dp"
+        android:fontFamily="@font/metropolis_semibold"
         android:text="Drop an image"
+        android:textColor="#F5F5F5"
         android:textAllCaps="false"
-        android:textColor="#F5F5F5" />
-
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="30dp"
+        android:padding="12dp"
+        />
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="-35dp"
         android:elevation="30dp"
-        android:src="@drawable/svgviewer_output4"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        android:background="@color/transparent"
+        android:src="@drawable/svgviewer_output4" />
+
 
 
     <EditText
         android:id="@+id/textview"
         android:layout_width="296dp"
-        android:layout_height="48dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="33dp"
-        android:background="@drawable/rounded_edittext_states"
-        android:elevation="20dp"
+        android:layout_height="46dp"
         android:hint="@string/edittext_hint"
+        android:background="@drawable/rounded_edittext_states"
+        android:textSize="16sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:fontFamily="@font/metropolis_medium"
+        android:textColorHint="#B4B4B4"
+        android:textColor="#000"
         android:inputType="text"
         android:longClickable="false"
-        android:padding="13dp"
         android:shadowColor="#F5F5F5"
         android:shadowDx="-2"
         android:shadowDy="-2"
         android:shadowRadius="1.5"
-        android:textColor="#000"
-        android:textColorHint="#B4B4B4"
-        android:textSize="16sp" />
+        android:elevation="20dp"
+        android:padding="13dp" />
 
     <!--    <EditText-->
     <!--        android:id="@+id/contact_num"-->
@@ -83,26 +86,38 @@
     <Button
         android:id="@+id/Gen"
         android:layout_width="296dp"
-        android:layout_height="48dp"
+        android:layout_height="46dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="48dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/roundedbuttoncor"
-        android:clickable="true"
-        android:elevation="30dp"
-        android:focusable="true"
-        android:padding="12dp"
+        android:fontFamily="@font/metropolis_semibold"
         android:text="Generate QR"
+        android:textColor="#F5F5F5"
         android:textAllCaps="false"
-        android:textColor="#F5F5F5" />
-
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="30dp"
+        android:padding="12dp"
+        />
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="125dp"
         android:layout_marginTop="-35dp"
         android:elevation="30dp"
-        android:src="@drawable/qrimg"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        android:background="@color/transparent"
+        android:src="@drawable/qrimg" />
+    <!--
+    Warning: Using more than one drop shadow effect is not supported, only the last visible one will be used as elevation.
+    -->
+
+    <!-- drawable/rectangle_1.xml -->
+
+
+
+
+
+
 </LinearLayout>
