@@ -19,6 +19,7 @@ import android.widget.Toast
 import android.widget.ViewFlipper
 import androidx.activity.ComponentActivity
 import androidx.annotation.RequiresApi
+import androidx.cardview.widget.CardView
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -107,8 +108,8 @@ class MainActivity : ComponentActivity() {
                 Toast.makeText(this, "Please insert an image and enter text", Toast.LENGTH_SHORT).show()
             }
         }
-        val shareButton: Button = findViewById(R.id.shareButton)
-        val downloadButton: Button = findViewById(R.id.downloadButton)
+        val shareButton: CardView = findViewById(R.id.shareButton)
+        val downloadButton: CardView = findViewById(R.id.downloadButton)
         shareButton.setOnClickListener {
             showShareIntent()
         }
@@ -298,21 +299,5 @@ class MainActivity : ComponentActivity() {
             blue = Math.max(0, Math.min(0xFF, blue / c))
             0xFF shl 24 or (red shl 16) or (green shl 8) or blue
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    UpdatedTheme {
-        Greeting("Android")
     }
 }

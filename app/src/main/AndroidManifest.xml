@@ -20,20 +20,20 @@
         <activity
             android:name=".PhoneNumberVerificationActivity"
             android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+            android:exported="true"
             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
             <!-- Add any additional configurations if needed -->
         </activity>
 
         <activity
             android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.Updated">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

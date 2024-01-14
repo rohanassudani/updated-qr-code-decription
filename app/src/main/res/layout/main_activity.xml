@@ -8,7 +8,6 @@
         android:layout_height="match_parent">
         <include layout="@layout/activity_main" />
         <include layout="@layout/activity_qrcode" />
-
     </ViewFlipper>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
