@@ -106,6 +106,7 @@
                 app:ccp_textGravity="CENTER"
                 app:ccp_autoDetectCountry="true"
                 app:ccp_autoDetectLanguage="true"
+                android:layout_marginEnd="8dp"
                 app:ccp_countryAutoDetectionPref="SIM_ONLY"
                 app:ccp_defaultLanguage="ENGLISH"
                 app:ccp_rememberLastSelection="true"
@@ -121,6 +122,7 @@
                 android:layout_height="45dp"
                 android:background="@drawable/roundedcornerwhite"
                 android:paddingStart="16dp"
+                android:layout_marginStart="8dp"
                 >
             </EditText>
         </LinearLayout>
