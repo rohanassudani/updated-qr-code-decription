@@ -116,15 +116,29 @@
                 />
 
             <!-- TextInputLayout -->
-            <EditText
-                android:id="@+id/et_phone_num"
+<!--            <EditText-->
+<!--                android:id="@+id/et_phone_num"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:background="@drawable/roundedcornerwhite"-->
+<!--                android:paddingStart="16dp"-->
+<!--                android:layout_marginStart="8dp"-->
+<!--                >-->
+<!--            </EditText>-->
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:background="@drawable/roundedcornerwhite"
-                android:paddingStart="16dp"
                 android:layout_marginStart="8dp"
                 >
-            </EditText>
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_phone_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    >
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
         </LinearLayout>
     </LinearLayout>
 
